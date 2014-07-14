@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:stretchColumns="*">
+        <TableRow>
+            <EditText
+                    android:id="@+id/eidtText"
+                    android:text="search"
+                    android:gravity="center_vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background"
+                    />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:stretchColumns="*">
+        <TableRow>
+            <Button
+                    android:id="@+id/nearByButton"
+                    android:text="Nearby"
+                    android:gravity="center_vertical"
+                    />
+            <Button
+                    android:id="@+id/checkMenuButton"
+                    android:text="checkMenu"
+                    android:gravity="center_vertical"
+                    />
+            <Button
+                    android:id="@+id/wannaEatButton"
+                    android:text="WannaEat"
+                    android:gravity="center_vertical"
+                    />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                    android:id="@+id/healthTipsButton"
+                    android:text="HealthTips"
+                    android:gravity="center_vertical"
+                    />
+            <Button
+                    android:id="@+id/foodMagazineButton"
+                    android:text="FoodMagazine"
+                    android:gravity="center_vertical"
+                    />
+            <Button
+                    android:id="@+id/moreButton"
+                    android:text="More"
+                    android:gravity="center_vertical"
+                    />
+        </TableRow>
+
+    </TableLayout>
+    <TableLayout
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+    <TableRow>
+    <Button
+            android:id="@+id/homeButton"
+            android:text="Home"
+            android:gravity="center_vertical"
+            />
+    <Button
+            android:id="@+id/meButton"
+            android:text="Me"
+            android:gravity="center_vertical"
+            />
+    </TableRow>
+
+    </TableLayout>
+</LinearLayout>
+
